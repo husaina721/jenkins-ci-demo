@@ -9,13 +9,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                sh 'npm install'
+                bat 'npm install'
             }
         }
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'echo "No tests yet!"'
+                bat 'echo No tests yet!'
             }
         }
         stage('Deploy') {
