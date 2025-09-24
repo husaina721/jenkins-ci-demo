@@ -1,0 +1,1 @@
+print("Hello from Jenkins CI/CD pipeline on EC2!")
